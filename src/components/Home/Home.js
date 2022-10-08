@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css"
 import image1 from "../../images/image-5.png"
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
             </div>
             <div className='simple-info'>
                 <h4 className='fw-bolder'>Biswanath Darul Ulum Islamiya Kamil Madrasha</h4>
-                <p>Assalamu Alaikum, this is the official website of our madrasha. Our madrasha is one of the famous institute is Bangladesh. We have super expart teacher. Teachers of our madrasha are trained from government institute. We provide a lot of opportunity to our students specially the talented student gets the super help from us and gets schoolarship. And who come from poor family we always try support him/her with financially.
+                <p>Assalamu Alaikum, this is the official website of our madrasha. Our madrasha is one of the famous institute is Bangladesh. We have super expart teacher. Teachers of our madrasha are trained from government institute. We provide a lot of opportunity to our students specially the talented student gets the super help from us and gets schoolarship. And who come from poor family we always try support him/her financially. <Link to="/about">See More</Link>
                 </p>
             </div>
         </div>

@@ -2,8 +2,12 @@
     width: 700px;
     border-radius: 10px;
 }
+.simple-info h4{
+    text-align: left;
+}
 .simple-info p{
     font-size: 20px;
+    text-align: left;
 }
 @media screen and (max-width: 700px) {
     .simple-info h4 {

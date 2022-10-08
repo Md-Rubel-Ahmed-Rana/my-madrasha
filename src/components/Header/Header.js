@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
             </div>
             <div>
-                <nav className={` ${open ? "d-none d-md-block" : null}`}>
+                <nav className={` ${open ? "d-none d-md-block mt-md-0 mt-2" : null}`}>
                     <NavLink className="d-block d-md-inline" to="/home">Home</NavLink>
                     <NavLink className="d-block d-md-inline" to="/admission">Admission</NavLink>
                     <NavLink className="d-block d-md-inline" to="/results">Results</NavLink>
