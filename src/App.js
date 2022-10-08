@@ -7,6 +7,7 @@ import Results from './components/Results/Results';
 import About from './components/About/About';
 import Main from './layout/Main';
 import Gallery from './components/Gallery/Gallery';
+import Home from './components/Home/Home';
 
 function App() {
   const router = createBrowserRouter([
@@ -15,6 +16,14 @@ function App() {
       element: <Main />,
       children: [
         
+        {
+          path: "/",
+          element: <Home /> ,
+        },
+        {
+          path: "/home",
+          element: <Home /> ,
+        },
         {
           path: "/admission",
           element: <Admission /> ,

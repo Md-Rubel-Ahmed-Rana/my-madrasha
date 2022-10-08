@@ -1,0 +1,19 @@
+.home img {
+    width: 700px;
+    border-radius: 10px;
+}
+.simple-info p{
+    font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+    .simple-info h4 {
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+    .simple-info p {
+            font-size: 16px;
+        }
+    .home img {
+            width: 100%;
+        }
+}
