@@ -29,6 +29,7 @@ function App() {
         },
         {
           path: "/gallery",
+          loader: () => fetch("pictures.json"),
           element: <Gallery /> ,
         },
         {
