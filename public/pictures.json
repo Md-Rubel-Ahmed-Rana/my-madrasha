@@ -58,5 +58,45 @@
         "id":12,
         "img": "./images/image-12.png",
         "desc": "Madrasha campus picture"
+    },
+    {
+        "id":13,
+        "img": "./images/image-13.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":14,
+        "img": "./images/image-14.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":15,
+        "img": "./images/image-15.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":16,
+        "img": "./images/image-16.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":17,
+        "img": "./images/image-17.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":18,
+        "img": "./images/image-18.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":19,
+        "img": "./images/image-19.png",
+        "desc": "Madrasha campus picture"
+    },
+    {
+        "id":20,
+        "img": "./images/image-20.png",
+        "desc": "Madrasha campus picture"
     }
 ]
