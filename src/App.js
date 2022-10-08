@@ -6,6 +6,7 @@ import Notice from './components/Notice/Notice';
 import Results from './components/Results/Results';
 import About from './components/About/About';
 import Main from './layout/Main';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
         {
           path: "/notice",
           element: <Notice /> ,
+        },
+        {
+          path: "/gallery",
+          element: <Gallery /> ,
         },
         {
           path: "/about",
