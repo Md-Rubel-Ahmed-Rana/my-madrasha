@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "classes": "HSC",
+        "year": 2020,
+        "result": "./results/hsc-2020.pdf"
+    },
+    {
+        "id": 2,
+        "classes": "SSC",
+        "year": 2020,
+        "result": "./results/ssc-2020.pdf"
+    },
+    {
+        "id": 3,
+        "classes": "JDC",
+        "year": 2020,
+        "result": "./results/jdc-2020.pdf"
+    },
+    {
+        "id": 4,
+        "classes": "PEC",
+        "year": 2020,
+        "result": "./results/pec-2020.pdf"
+    }
+]

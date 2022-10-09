@@ -3,11 +3,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Admission from './components/Admission/Admission';
 import Notice from './components/Notice/Notice';
-import Results from './components/Results/Results';
 import About from './components/About/About';
 import Main from './layout/Main';
 import Gallery from './components/Gallery/Gallery';
 import Home from './components/Home/Home';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import { createContext } from 'react';
+import Results from './components/Results/Results';
+
+export const totalStudentInfo = createContext ({
+  teachers :  80,
+  totalStudent :  3478,
+  newStudent :  560,
+  totalRejected :  50,
+  totalSeet :  5000
+})
 
 function App() {
   const router = createBrowserRouter([
@@ -30,6 +40,7 @@ function App() {
         },
         {
           path: "/results",
+          loader: () => fetch("results.json"),
           element: <Results /> ,
         },
         {
@@ -45,11 +56,15 @@ function App() {
           path: "/about",
           element: <About />,
         },
+        {
+          path: "*",
+          element: <ErrorPage />,
+        },
       ]
     },
     {
-      path: "/home",
-      element: <Main />,
+      path: "*",
+      element: <ErrorPage />,
     },
   ])
   return (

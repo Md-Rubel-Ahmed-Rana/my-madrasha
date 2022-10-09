@@ -1,0 +1,47 @@
+.admission{
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: purple;
+    padding: 20px 45px;
+    height: 90vh;
+}
+
+.sidebar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.admit-form{
+    background-color: red;
+    padding: 0px 10px;
+}
+
+form{
+    background-color: blue;
+    width: 99%;
+    margin: 0px auto;
+    height: 90vh;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 10px;
+}
+
+label{
+    display: block;
+    margin:30px 0px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .admission{
+        grid-template-columns: 1fr;
+    }
+}

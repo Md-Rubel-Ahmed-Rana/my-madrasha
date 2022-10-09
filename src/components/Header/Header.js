@@ -9,6 +9,13 @@ const Header = () => {
     const handleOpen = () => {
         setOpen(!open)
     }
+    const style = ({ isActive }) => {
+    return {
+        color: isActive ? "white" : "inherit",
+        backgroundColor: isActive ? "blue" : "inherit",
+        borderRadius: isActive ? "5px" : "inherit",
+    };
+}
     return (
         <div className='d-md-flex px-md-5 px-3 py-2 justify-content-between align-items-center  bg-danger'>
             <div className='d-flex justify-content-between align-items-center'>
@@ -21,12 +28,12 @@ const Header = () => {
             </div>
             <div>
                 <nav className={` ${open ? "d-none d-md-block mt-md-0 mt-2" : null}`}>
-                    <NavLink className="d-block d-md-inline" to="/home">Home</NavLink>
-                    <NavLink className="d-block d-md-inline" to="/admission">Admission</NavLink>
-                    <NavLink className="d-block d-md-inline" to="/results">Results</NavLink>
-                    <NavLink className="d-block d-md-inline" to="/notice">Notice</NavLink>
-                    <NavLink className="d-block d-md-inline" to="/gallery">Gallery</NavLink>
-                    <NavLink className="d-block d-md-inline" to="/about">About</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/home" >Home</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/admission">Admission</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/results">Results</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/notice">Notice</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/gallery">Gallery</NavLink>
+                    <NavLink style={style} className="d-block d-md-inline px-2 py-1 text-white" to="/about">About</NavLink>
                 </nav>
             </div>
         </div>

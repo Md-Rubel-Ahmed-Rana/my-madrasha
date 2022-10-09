@@ -6,8 +6,8 @@ import "./Gallery.css"
 const Gallery = () => {
     const pictures = useLoaderData();
     return (
-        <div className='m-4'>
-            <h2>Welcome Our Gallery</h2>
+        <div className='p-4 bg-dark'>
+            <h2 className='text-white'>Welcome Our Gallery</h2>
             <div className='gallery m-2'>
                 {
                     pictures.map((picture) => <ShowPicture picture={picture} key={picture.id} />)
