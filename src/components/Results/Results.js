@@ -5,9 +5,9 @@ import ShowResult from './ShowResult';
 const Results = () => {
     const results = useLoaderData();
     return (
-        <div>
-            <div className='results'>
-            <h3 className='text-white my-3'>All Results Here</h3> 
+        <div className='results'>
+            <h3 className='my-3 text-white'>All Results Here</h3> 
+            <div>
                 {
                     results.map((result) => <ShowResult allresult={result} key={result.id} />)
                 }

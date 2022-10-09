@@ -1,26 +1,13 @@
 [
-    {
-        "id": 1,
-        "classes": "HSC",
-        "year": 2020,
-        "result": "./results/hsc-2020.pdf"
-    },
-    {
-        "id": 2,
-        "classes": "SSC",
-        "year": 2020,
-        "result": "./results/ssc-2020.pdf"
-    },
-    {
-        "id": 3,
-        "classes": "JDC",
-        "year": 2020,
-        "result": "./results/jdc-2020.pdf"
-    },
-    {
-        "id": 4,
-        "classes": "PEC",
-        "year": 2020,
-        "result": "./results/pec-2020.pdf"
-    }
+    {"id": 1, "classes": "HSC", "year": 2019, "file": "./pdfFile/hsc-2019.pdf"},
+    {"id": 2, "classes": "HSC", "year": 2020, "file": "./pdfFile/hsc-2020.pdf"},
+    {"id": 3, "classes": "HSC", "year": 2022, "file": "./pdfFile/hsc-2022.pdf"},
+
+    {"id": 4, "classes": "JDC", "year": 2020, "file": "./pdfFile/jdc-2020.pdf"},
+
+    {"id": 5, "classes": "PEC", "year": 2020, "file": "./pdfFile/pec-2020.pdf"},
+    {"id": 6, "classes": "PEC", "year": 2022, "file": "./pdfFile/pec-2022.pdf"},
+
+    {"id": 7, "classes": "SSC", "year": 2020, "file": "./pdfFile/ssc-2020.pdf"},
+    {"id": 8, "classes": "SSC", "year": 2021, "file": "./pdfFile/ssc-2021.pdf"}
 ]

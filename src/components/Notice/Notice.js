@@ -3,7 +3,7 @@ import React from 'react';
 const Notice = () => {
     return (
         <div>
-            <h3>This is Notice</h3>
+            <h3>Notice has not been added yat.</h3>
         </div>
     );
 };

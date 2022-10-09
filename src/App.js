@@ -55,17 +55,13 @@ function App() {
         {
           path: "/about",
           element: <About />,
-        },
-        {
-          path: "*",
-          element: <ErrorPage />,
-        },
+        }
       ]
     },
     {
       path: "*",
       element: <ErrorPage />,
-    },
+    }
   ])
   return (
     <div className="App">
